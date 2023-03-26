@@ -1,0 +1,11 @@
+asyncWorker:
+  workerSize: 16
+  ringBufferSize: 131072
+server:
+    port: 8080
+spring:
+  redis:
+    database: 5
+    host: 192.168.32.17
+    port: 16379
+    timeout: 6000ms
